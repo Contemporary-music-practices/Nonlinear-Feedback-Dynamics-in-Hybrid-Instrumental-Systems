@@ -422,4 +422,8 @@ a {
     html {
         font-size: 18px;
     }
+    .logo {
+        width: 62px;
+        height: 62px;
+    }
 }
