@@ -1,0 +1,425 @@
+html {
+    font-size: 22px; /* = 16px par défaut navigateur */
+}
+
+body {
+    font-size: 1rem; /* 16px */
+    line-height: 1.7;
+    /* color: red; */
+}
+
+.site-title {
+    font-size: 5rem;
+    /* color: red; */
+}
+
+.article-title {
+    font-size: 2rem; /* 32px */
+}
+
+.author-name {
+    font-size: 0.9rem;
+}
+
+.tags {
+    font-size: 0.8rem;
+    /* text-decoration: dashed red 1px; */
+}
+
+.article-nav {
+    font-size: 0.9rem;
+}
+
+.abstract-box {
+    font-size: 0.95rem;
+}
+
+.article-intro {
+    font-size: 1rem;
+}
+
+.outline-list {
+    font-size: 0.9rem;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #222;
+    background: #fff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 28px;
+    border-bottom: 1px solid #d9d9d9;
+    background: #fff;
+}
+
+.header-left,
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo {
+    width: 42px;
+    height: 42px;
+    /* background: #d0d0d0; */
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+.search-bar {
+    width: 180px;
+    padding: 7px 10px;
+    border: 1px solid #cfcfcf;
+    font: inherit;
+    font-size: 0.92rem;
+}
+
+.menu-icon {
+    font-size: 1.2rem;
+    line-height: 1;
+    cursor: default;
+}
+
+.main-layout {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 28px;
+    padding: 28px;
+}
+
+.left-column {
+    min-height: 200px;
+}
+
+.right-column {
+    min-width: 0;
+}
+
+.article-title {
+    margin: 0 0 10px;
+    font-size: 2rem;
+    line-height: 1.15;
+    font-weight: 500;
+}
+
+.author-name {
+    margin: 0 0 12px;
+    font-size: 0.98rem;
+    color: #555;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.tag {
+    padding: 4px 10px;
+    border: 1px solid #d8d8d8;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    color: #555;
+    background: #fafafa;
+    transition:
+        color 0.2s ease,
+        border-color 0.2s ease,
+        background-color 0.2s ease;
+}
+
+.tag:hover {
+    color: #8b2e2e;
+    border-color: #c7a3a3;
+    background: #fcf5f5;
+}
+
+.article-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    padding: 12px 0 18px;
+    margin-bottom: 22px;
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 0.92rem;
+    color: #555;
+}
+
+.article-nav a:hover {
+    text-decoration: underline;
+}
+
+.article-inner-layout {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    gap: 28px;
+}
+
+.inner-left {
+    min-height: 200px;
+}
+
+.inner-right {
+    min-width: 0;
+}
+
+.abstract-box {
+    margin-bottom: 30px;
+    padding: 18px 20px;
+    background: #f5f5f5;
+    border-left: 3px solid #cfcfcf;
+    font-size: 0.96rem;
+    line-height: 1.65;
+}
+
+.abstract-box p:first-child {
+    margin-top: 0;
+}
+
+.abstract-box p:last-child {
+    margin-bottom: 0;
+}
+
+.abstract-box ul {
+    margin: 8px 0 16px 20px;
+    padding: 0;
+}
+
+.abstract-box li {
+    margin-bottom: 6px;
+}
+
+.article-intro {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.article-intro p:first-child {
+    margin-top: 0;
+}
+
+.article-intro p {
+    margin: 0 0 18px;
+}
+
+/* .intro-figure {
+    float: left;
+    width: 260px;
+    margin: 0 20px 12px 0;
+}
+
+.intro-figure img {
+    width: 100%;
+    display: block;
+    border: 1px solid #ddd;
+} */
+
+.intro-figure {
+    float: left;
+    width: 45%;
+    max-width: 450px;
+    margin: 0 24px 16px 0;
+}
+
+.intro-figure img {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.figure-caption {
+    font-size: 0.75rem;
+    color: #666;
+    margin-top: 6px;
+    line-height: 1.3;
+}
+
+.article-outline {
+    position: sticky;
+    top: 24px;
+    font-size: 0.92rem;
+    line-height: 1.5;
+}
+
+.outline-title {
+    margin: 0 0 14px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    color: #444;
+}
+
+.outline-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.outline-list li {
+    margin-bottom: 8px;
+}
+
+.outline-list a {
+    color: #5a5a5a;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.outline-list a:hover {
+    color: #a83131;
+}
+
+.outline-subitem {
+    padding-left: 16px;
+    font-size: 0.88rem;
+}
+.related-articles {
+    font-size: 0.9rem;
+    /* margin-right: 2rem; */
+}
+
+.related-title {
+    margin: 0 0 16px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #444;
+}
+
+.related-item {
+    margin-bottom: 2rem;
+}
+
+.related-link {
+    text-decoration: none;
+    display: block;
+}
+
+.related-article-title {
+    margin: 0 0 4px;
+    color: #333;
+    font-size: 0.92rem;
+    line-height: 1.4;
+    transition: color 0.2s ease;
+}
+
+.related-author {
+    margin: 0;
+    font-size: 0.82rem;
+    color: #777;
+    transition: color 0.2s ease;
+}
+
+/* hover = les deux changent */
+.related-link:hover .related-article-title {
+    color: #a83131;
+}
+
+.related-link:hover .related-author {
+    color: #b65959;
+}
+
+/* MOBILE */
+.mobile-insert-zone {
+    display: none;
+    margin: 0 0 24px;
+}
+
+.mobile-panel {
+    border: 1px solid #ddd;
+    background: #fafafa;
+    margin-bottom: 12px;
+}
+
+.mobile-panel summary {
+    cursor: pointer;
+    padding: 12px 14px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    list-style: none;
+}
+
+.mobile-panel-content {
+    padding: 0 14px 14px;
+}
+
+@media (max-width: 800px) {
+    .main-layout {
+        display: block;
+        padding: 18px;
+    }
+    .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .header-left {
+        width: 100%;
+    }
+
+    .header-right {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        gap: 10px;
+        flex-direction: row-reverse;
+    }
+
+    .article-inner-layout {
+        display: block;
+    }
+
+    .left-column,
+    .inner-left {
+        display: none;
+    }
+
+    .mobile-insert-zone {
+        display: block;
+    }
+
+    .intro-figure {
+        float: none;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 0 14px 0;
+    }
+
+    .article-title {
+        font-size: 1.45rem;
+    }
+    /* cacher doublon titre  */
+    .mobile-panel .related-title,
+    .mobile-panel .outline-title {
+        display: none;
+    }
+    html {
+        font-size: 18px;
+    }
+}
